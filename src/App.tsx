@@ -9,7 +9,7 @@ import { SkillSection } from "./modules/skills";
 export default function App() {
   return (
     <div className=" w-full min-h-screen bg-[#101922]">
-      <div className=" fixed top-0 w-full">
+      <div className=" fixed top-0 w-screen z-50">
         <TopNav />
       </div>
       <div className=" h-16" />
