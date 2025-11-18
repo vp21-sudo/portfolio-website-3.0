@@ -3,6 +3,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 @custom-variant dark (&:is(.dark *));
@@ -120,5 +121,33 @@ html {
     }
     body {
         @apply bg-background text-foreground;
+    }
+}
+
+#follower {
+    background: linear-gradient(to right, mediumblue, mediumpurple);
+    height: 200px;
+    width: 200px;
+    translate: -50% -50%;
+    border-radius: 50%;
+    animation: rotate 20s infinite;
+    z-index: 0;
+}
+
+#blur {
+    z-index: 2; /* Just below your content which has z-50 */
+    backdrop-filter: blur(100px);
+    pointer-events: none;
+}
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+    50% {
+        scale: 1 1.5;
+    }
+    to {
+        rotate: 360deg;
     }
 }

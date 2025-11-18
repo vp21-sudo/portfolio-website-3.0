@@ -60,7 +60,7 @@ export function ProjectSection() {
                   <img
                     src={project.image}
                     alt="Image"
-                    className=" w-full h-72 object-fill rounded-t-lg origin-bottom group-hover:scale-110 transition-all ease-in-out duration-500 z-0 group-hover:z-0:"
+                    className=" w-full h-full object-contain rounded-t-lg origin-bottom group-hover:scale-110 transition-all ease-in-out duration-500 z-0 group-hover:z-0:"
                   />
                 </div>
               )}

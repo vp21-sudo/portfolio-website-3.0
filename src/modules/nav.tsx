@@ -3,8 +3,8 @@ import { Separator } from "@/components/ui/separator";
 
 export function TopNav() {
   return (
-    <nav className=" bg-[#101922] w-full max-w-6xl mx-auto text-white flex flex-col justify-between items-center py-3 px-4 md:px-0">
-      <div className=" w-full flex justify-between items-center">
+    <nav className=" bg-[#101922] w-full mx-auto text-white flex flex-col justify-between items-center py-3 px-4 md:px-0">
+      <div className=" w-full max-w-6xl flex justify-between items-center">
         <a
           href="#hero"
           className=" font-semibold text-xl flex justify-center items-center gap-2"
