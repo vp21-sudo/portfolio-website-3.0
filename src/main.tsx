@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.tsx";
 import { Analytics } from "@vercel/analytics/react";
 
+// testing dokploy
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <App />
